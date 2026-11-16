@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#222222"
+    android:padding="8dp">
+
+    <!-- 1行目：定型文ボタン -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btn_hello"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:text="こんにちは"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#444444"
+            android:layout_margin="2dp"/>
+        <Button
+            android:id="@+id/btn_thanks"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:text="ありがとう"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#444444"
+            android:layout_margin="2dp"/>
+    </LinearLayout>
+
+    <!-- 2行目：文字入力ボタン -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btn_a"
+            android:layout_width="0dp"
+            android:layout_height="56dp"
+            android:layout_weight="1"
+            android:text="あ"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#555555"
+            android:layout_margin="2dp"/>
+        <Button
+            android:id="@+id/btn_i"
+            android:layout_width="0dp"
+            android:layout_height="56dp"
+            android:layout_weight="1"
+            android:text="い"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#555555"
+            android:layout_margin="2dp"/>
+        <Button
+            android:id="@+id/btn_u"
+            android:layout_width="0dp"
+            android:layout_height="56dp"
+            android:layout_weight="1"
+            android:text="う"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#555555"
+            android:layout_margin="2dp"/>
+        <Button
+            android:id="@+id/btn_delete"
+            android:layout_width="0dp"
+            android:layout_height="56dp"
+            android:layout_weight="1"
+            android:text="←"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#AA3333"
+            android:layout_margin="2dp"/>
+    </LinearLayout>
+
+</LinearLayout>
